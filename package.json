@@ -27,9 +27,9 @@
 		"url": "https://github.com/ysn4irix/ex-api-cli"
 	},
 	"bugs": {
-		"url": "https://github.com/ysn4irix/ex-api-api/issues"
+		"url": "https://github.com/ysn4irix/ex-api-cli/issues"
 	},
-	"homepage": "https://github.com/ysn4irix/ex-api-api#readme",
+	"homepage": "https://github.com/ysn4irix/ex-api-cli#readme",
 	"scripts": {
 		"format": "prettier --write \"./**/*.{js,json}\""
 	},
