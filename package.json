@@ -1,0 +1,57 @@
+{
+	"name": "ex-api-cli",
+	"description": "CLI to automatically clone the ex-api-template starter",
+	"version": "1.1.0",
+	"license": "MIT",
+	"bin": {
+		"ex-api-cli": "index.js",
+		"ex-api": "index.js"
+	},
+	"author": {
+		"name": "Ysn4Irix",
+		"email": "ysn4irix@gmail.com",
+		"url": "https://ysnirix.tech"
+	},
+	"keywords": [
+		"express",
+		"cli",
+		"express starter",
+		"nodejs",
+		"api"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"repository": {
+		"url": "https://github.com/ysn4irix/ex-api-cli"
+	},
+	"bugs": {
+		"url": "https://github.com/ysn4irix/ex-api-api/issues"
+	},
+	"homepage": "https://github.com/ysn4irix/ex-api-api#readme",
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"await-to-js": "^3.0.0",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-should-cancel": "^1.0.3",
+		"cli-welcome": "^2.2.2",
+		"degit": "^2.8.4",
+		"enquirer": "^2.3.6",
+		"meow": "^9.0.0",
+		"ora": "^5.4.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"engines": {
+		"npm": ">=6.0.0",
+		"node": ">=15.0.0"
+	}
+}
