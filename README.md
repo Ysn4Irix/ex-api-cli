@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://npmjs.org/package/@ysn4irix/gdrive">
+  <a href="https://npmjs.org/package/ex-api-cli">
     <img src="https://img.shields.io/npm/v/ex-api-cli.svg" alt="version">
   </a>
 </p>
