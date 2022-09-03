@@ -45,7 +45,7 @@
 		"degit": "^2.8.4",
 		"enquirer": "^2.3.6",
 		"meow": "^9.0.0",
-		"ora": "^5.4.0"
+		"ora": "^6.1.2"
 	},
 	"devDependencies": {
 		"prettier": "^2.7.1"
