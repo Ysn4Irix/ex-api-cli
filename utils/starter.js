@@ -2,7 +2,7 @@
  * @author Ysn4Irix
  * @email ysn4irix@gmail.com
  * @create date 03-09-2022
- * @modify date 03-09-2022
+ * @modify date 01-12-2022
  * @desc the starter file where the logic lives
  */
 
@@ -86,7 +86,7 @@ module.exports = async directory => {
 
 			const filename =
 				directory === '.'
-					? './package.json'
+					? `${process.cwd()}/package.json`
 					: `${process.cwd()}/${directory}/package.json`;
 
 			const file = require(filename);
