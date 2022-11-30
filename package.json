@@ -1,7 +1,7 @@
 {
 	"name": "ex-api-cli",
 	"description": "CLI to automatically clone the ex-api-template starter",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"license": "MIT",
 	"bin": {
 		"ex-api-cli": "index.js",
