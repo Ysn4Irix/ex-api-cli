@@ -4,7 +4,7 @@
  * ex-api-cli
  * CLI to automatically clone the ex-api-template starter
  *
- * @author Ysn4Irix <https://ysnirix.tech>
+ * @author Ysn4Irix <https://ysnirix.xyz>
  */
 
 const init = require('./utils/init');

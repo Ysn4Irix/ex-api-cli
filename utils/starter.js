@@ -7,7 +7,6 @@
  */
 
 const fs = require('fs');
-const { spawn } = require('child_process');
 const degit = require('degit');
 const ora = require('ora');
 const alert = require('cli-alerts');
@@ -49,39 +48,7 @@ module.exports = async directory => {
 			verbose: true
 		});
 
-		function runCommand(command, args, options = undefined) {
-			const spawned = spawn(command, args, options);
-
-			return new Promise(resolve => {
-				spawned.stdout.on('data', data => {
-					console.log(`${d(data.toString())}`);
-				});
-
-				spawned.stderr.on('data', data => {
-					console.log(`${d(data.toString())}`);
-				});
-
-				spawned.on('close', () => {
-					resolve();
-				});
-			});
-		}
-
 		emitter.clone(directory).then(async () => {
-			console.log('\n');
-			spinner.start(
-				`${y(`🚀 Installing dependencies...`)} \n\n${d(
-					`It may take moment depending on your internet speed...`
-				)}`
-			);
-			const command = /^win/.test(process.platform) ? 'npm.cmd' : 'npm';
-			await runCommand(command, ['install'], {
-				cwd:
-					directory === '.'
-						? process.cwd()
-						: `${process.cwd()}/${directory}`
-			});
-			spinner.clear();
 			spinner.start(`${y('Updating package.json')}`);
 
 			const filename =
@@ -113,6 +80,7 @@ module.exports = async directory => {
 				console.log(`${w('To get started:')}\n`);
 				vars.projectName !== '.' &&
 					console.log(`${y(`cd ${vars.projectName}`)}\n`);
+				console.log(`${y('npm install')}\n`);
 				console.log(`${y('npm run dev')}\n`);
 			});
 		});
