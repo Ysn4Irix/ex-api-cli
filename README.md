@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/@ysn4irix/ex-api-cli.svg?style=flat-square)](https://www.npmjs.org/package/ex-api-cli) [![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=ex-api-cli&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=ex-api-cli) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ex-api-cli?style=flat-square)](https://bundlephobia.com/package/ex-api-cli)
+[![npm version](https://img.shields.io/npm/v/ex-api-cli.svg?style=flat-square)](https://www.npmjs.org/package/ex-api-cli) [![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=ex-api-cli&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=ex-api-cli) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ex-api-cli?style=flat-square)](https://bundlephobia.com/package/ex-api-cli)
 
 </div>
 
