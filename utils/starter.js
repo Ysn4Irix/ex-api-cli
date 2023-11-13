@@ -41,7 +41,7 @@ module.exports = async directory => {
 
 		const vars = await questions(directory);
 
-		const repoName = 'ysn4irix/ex-api-template';
+		const repoName = 'ysn4irix/ex-api-template-ts';
 
 		const emitter = degit(repoName, {
 			force: true,
